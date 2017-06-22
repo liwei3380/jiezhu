@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script>
+      var deviceWidth = document.documentElement.clientWidth // rem 单位
+      if (deviceWidth > 750) deviceWidth = 750
+      document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px'
+      var deviceHeight = document.documentElement.clientHeight
+      document.body.style.height = deviceHeight+'px'
+  </script>
+</html>
